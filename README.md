@@ -28,10 +28,11 @@ This algorithm has many advantages over algorithms described above. His main fea
 1. We get every, for example, 3 letter of user query (it's our query) <br>
 2. We find different queries with using context searching. For example: <br>
 ```
-Prefix - <b>шок</b> <br>
-Variants: <br>
-<b>шок</b>оладный заяц <br>
-кубик <b>шок</b>оладный
+Prefix - шок
+Variants:
+шоколадный заяц
+кубик шоколадный
+торт в шоколадной глазури
 ```
 3. Try to find all correct variants for user prefix <br>
 4. Return all variants for user query <br>
